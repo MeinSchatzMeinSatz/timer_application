@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>위니브 타이머 구현하기</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">위니브 타이머</h1>
+      <img class="main-logo" src="./src/img/weniv-logo.svg" alt="위니브 로고" />
+
+      <article class="timer-container">
+        <h2>TIMER</h2>
+
+        <hr class="divider" />
+
+        <div class="timer-box">
+          <div class="hour box">
+            <h3>HRS</h3>
+            <div class="time-box"></div>
+          </div>
+
+          <img src="./src/img/dot.png" alt="timer_dot" />
+
+          <div class="minute box">
+            <h3>MIN</h3>
+            <div class="time-box"></div>
+          </div>
+
+          <img src="./src/img/dot.png" alt="timer_dot" />
+
+          <div class="second box">
+            <h3>SEC</h3>
+            <div class="time-box"></div>
+          </div>
+        </div>
+
+        <div class="btn-box">
+          <button>
+            <img src="./src/img/start-disabled.png" alt="" />
+          </button>
+          <button><img src="./src/img/reset-disabled.png" alt="" /></button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
